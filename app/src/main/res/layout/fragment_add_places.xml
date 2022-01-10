@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.main.AddPlacesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Places"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:textColor="#085C9F"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/idStreet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter State"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <EditText
+        android:id="@+id/idCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter City"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+    <EditText
+        android:id="@+id/idCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Country"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:drawable/editbox_background_normal"/>
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Save to FireBase"/>
+
+</LinearLayout>
